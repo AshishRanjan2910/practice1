@@ -1,0 +1,35 @@
+li {
+    list-style: none;
+    padding: 0.5rem;
+    background-color: #fafafa;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  text {
+    font-size: 1.2rem;
+  }
+  
+  button {
+    background-color: #00a3e7;
+    color: #ffffff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  @media (max-width: 600px) {
+    .todo-item {
+      flex-wrap: wrap;
+    }
+    .todo-item__text {
+      flex-basis: 100%;
+    }
+    .todo-item__button {
+      margin-top: 0.5rem;
+    }
+  }
